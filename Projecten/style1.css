@@ -1,0 +1,242 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+  background-color: #004953;
+  color: white;
+  margin-top: -1vh;
+  margin-left: -1vw;
+  margin-right: auto;
+  width: 100.5vw;
+  height: 8vh;
+  text-align: center;
+  font-family: sans-serif;
+  z-index: 3;
+  position: relative;
+}
+
+.Titel {
+  margin-top: 1vh;
+}
+
+.Button {
+  color: White;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+.Fotos {
+  display: flex;
+  justify-content: center;
+  margin-top: -2.5vh;
+}
+
+.First {
+  margin-top: 15vh !important;
+}
+
+.Buttondiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 160px;
+  background-color: blue;
+  margin: 30px;
+  background-position: center;
+  background-size: cover;
+  /*border-radius: 10px;*/
+}
+
+.Balkje {
+  display: flex;
+  justify-content: space-around;
+  background-color: #D3D3D3;
+  width: 100vw;
+ margin-left: -0.5vw;
+  position: relative;
+  border-bottom: 1.1px solid #004953;
+  height:2.2vh;
+  z-index: 3;
+}
+
+.Lijntje {
+  background-color: #004953;
+  width:1440px;
+  height: 1.1px;
+  position: fixed;
+  z-index: 3;
+
+}
+
+.Verticaal {
+  z-index: 2;
+  position: absolute;
+ margin-top: calc(11.20vh + 1.1px);
+ width: 200px;
+ height: 1450px;
+background-color: #D3D3D3;
+margin-left: -13.5vw;
+margin-top: 0vh;
+}
+
+.Verticaal:hover {
+  margin-left: -0.5vw;
+}
+
+
+.Keuze {
+  color: #696969;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+
+.Filterbalk {
+
+  margin-top: 1.5vh;
+  height:35px;
+
+}
+
+.Doos {
+
+  color: black;
+  font-family: monospace;
+  text-decoration: underline;
+  margin-left: 4.5vw;
+  margin-top: 8vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Order */
+
+
+.Order {
+  overflow: hidden;
+  margin-top: 0vh;
+}
+
+.filterDiv {
+  float: left;
+  background-color: Black;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  width: 275px;
+  line-height: 450px;
+  text-align: center;
+  margin: 2px;
+  margin-top: 2vh;
+  display: none; /* Hidden by default */
+  margin-left: 0.5vw;
+}
+
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+#Blueshirt {
+  background-image: url('blueshirt.png');
+}
+
+
+#Pink {
+  background-image: url('Pink.png');
+
+}
+
+#Kakishirt {
+  background-image: url('Kakishirt.png');
+
+}
+
+#Zwarteturtleneck {
+  background-image: url('Zwarteturtleneck.png');
+
+}
+
+#Whiteshirt {
+  background-image: url('whiteshirt.png');
+
+}
+
+#Whitecoat {
+  background-image: url('Whitecoat.png');
+
+}
+
+#Greencoat {
+  background-image: url('Greencoat.png');
+
+}
+
+#Kakitrenchbag {
+  background-image: url('Kakitrenchbag.png');
+
+}
+
+#Kakilight {
+  background-image: url('Kakilight.png');
+
+}
+
+#Kakitrench {
+  background-image: url('Kakitrench.png');
+
+}
+
+#Duitspak {
+  background-image: url('Duitspak.png');
+
+}
+
+#Whitechest {
+  background-image: url('Whitechest.png');
+
+}
+
+#Greencoat {
+  background-image: url('Greencoat.png');
+
+}
+
+#Greencoat {
+  background-image: url('Greencoat.png');
+
+}

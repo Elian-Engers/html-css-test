@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filter</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="animate.css">
+  </head>
+  <body>
+
+    <div class="Container">
+        <p class="Titel"> LEAL </p>
+      </div>
+    <div class="Balkje">
+          <div class="Navigatiediv">
+            <a class="Keuze" href="#">New in</a>
+          </div>
+          <div class="Navigatiediv">
+            <a class="Keuze" href="#">Sweaters</a>
+          </div>
+          <div class="Navigatiediv">
+            <a class="Keuze"href="#">Shirts</a>
+          </div>
+          <div class="Navigatiediv">
+            <a class="Keuze" href="#">Pants</a>
+          </div>
+    </div>
+
+      <div class="Verticaal">
+
+          <div class="Filterbalk">
+            <a class="Doos"> Filter </a>
+          </div>
+
+
+          <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('Kaki')"> Kaki</button>
+        <button class="btn" onclick="filterSelection('Black')"> Black</button>
+        <button class="btn" onclick="filterSelection('White')"> White</button>
+        <button class="btn" onclick="filterSelection('Coats')"> Coats</button>
+        <button class="btn" onclick="filterSelection('Shirt')"> Shirts</button>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="Order">
+  <div class="filterDiv animated zoomIn Kaki Shirts" id="Kakishirt">BMW</div>
+  <div class="filterDiv animated zoomIn Coats White" id="Whitecoat" >Orange</div>
+  <div class="filterDiv animated zoomIn Kaki" id="Kakitrenchbag">Volvo</div>
+  <div class="filterDiv animated zoomIn Coats" id="Greencoat">Red</div>
+  <div class="filterDiv animated zoomIn Kaki Shirts" id="Kakilight">Mustang</div>
+  <div class="filterDiv animated zoomIn Kaki Coats" id="Kakitrench">Blue</div>
+  <div class="filterDiv animated zoomIn Black" id="Duitspak">Cat</div>
+  <div class="filterDiv animated zoomIn Black White" id="Whitecoat">Dog</div>
+  <div class="filterDiv animated zoomIn Shirts" id="Blueshirt" >Kiwi</div>
+  <div class="filterDiv animated zoomIn White Shirts" id="Whitechest" >Banana</div>
+  <div class="filterDiv animated zoomIn White Shirts" id="Whiteshirt">Lemon</div>
+  <div class="filterDiv animated zoomIn Black " id="Zwarteturtleneck">Cow</div>
+  <div class="filterDiv animated zoomIn Kaki Shirts" id="Pink">Lemon</div>
+</div>
+
+
+
+    <script src="script1.js" charset="utf-8"></script>
+  </body>
+</html>
